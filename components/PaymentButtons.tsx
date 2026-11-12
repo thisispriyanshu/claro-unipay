@@ -27,7 +27,7 @@ export default function PaymentButtons({
 }) {
   const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID;
   const merchantIds = (process.env.NEXT_PUBLIC_PAYPAL_MERCHANT_IDS ??
-    "2AY38ZW9RL536,XCLG3AJY87NH4")
+    "2AY38ZW9RL536,XCLG3AJY87NH4,7MQJPKQEH565W")
     .split(",")
     .map((id) => id.trim())
     .filter(Boolean);

@@ -26,6 +26,6 @@ services:
       - key: NEXT_PUBLIC_PAYPAL_CLIENT_ID
         sync: false
       - key: NEXT_PUBLIC_PAYPAL_MERCHANT_IDS
-        value: 2AY38ZW9RL536,XCLG3AJY87NH4
+        value: 2AY38ZW9RL536,XCLG3AJY87NH4,7MQJPKQEH565W
       - key: DEMO_MERCHANT_EMAILS
         sync: false
